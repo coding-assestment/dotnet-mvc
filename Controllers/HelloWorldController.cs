@@ -7,9 +7,14 @@ public class HelloWorldController : Controller
 {
     // 
     // GET: /HelloWorld/
-    public string Index()
+    /* public string Index()
     {
         return "This is my default action...";
+    } */
+    /* response razor view template  */
+    public IActionResult Index()
+    {
+        return View();
     }
     // GET: /HelloWorld/Welcome/ 
 // Requires using System.Text.Encodings.Web;
